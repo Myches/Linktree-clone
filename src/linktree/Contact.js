@@ -17,13 +17,12 @@ function Contact(){
 
 return(
 
-   
 	<div className='form'>
    <h2>Contact Me</h2>
    <p className='contact_p'>Hi there , contact me to ask me about anything you have in mind</p>
 
    <form>  
-	    
+	  
                 <p className='firstname'>Firstname</p>
 				<input type='text' id='first_name' placeholder='Enter your firstname' onChange={handleChange} name="firstName" value={formData.firstName}/>
 				
@@ -32,7 +31,6 @@ return(
 				<p className='lastname'>Lastname</p>
 				<input type='text' id='last_name' placeholder='Enter your lastname' onChange={handleChange} name="lastName" value={formData.lastName}/> <br />
 				
-
 				<label htmlFor='emal'>Email</label>
                 <input type='email' id='email' placeholder='yourname@gmail.com' onChange={handleChange} name="email" value={formData.email}/> <br />
 
@@ -40,9 +38,9 @@ return(
 				<textarea id='message' placeholder='send me a message and i will reply as soon as possible' onChange={handleChange} name='message' value={formData.message}/> <br />
 
 				
-				<input type='checkbox' id='agreement' checked={formData.agreement} onChange={handleChange} name='agreement'/>
+					<input type='checkbox' id='agreement' checked={formData.agreement} onChange={handleChange} name='agreement'/>
 			<label htmlFor='agreement'>You agree to providing your data to Michael Andorful, who may contact you</label> <br />
-
+			
 			<button id='btn__submit'>Send Message</button>
 			 
 			</form>
