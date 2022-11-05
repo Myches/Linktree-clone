@@ -1,27 +1,21 @@
-
 import React from 'react'
-
-import Header from './linktree/Header.js'
-import Links from './linktree/Links.js'
-import Footer from './linktree/Footer.js'
+import Home from './linktree/Home.js'
 import './linktree/linktree.css'
-
+import {HashRouter,Route,Routes} from 'react-router-dom'
+import Contact from './linktree/Contact.js'
+import './linktree/form.css'
 
 
 function App(){
 return(
-  
+  <HashRouter>
   <div className='App'>
- <a href='#'id="share">
-<img src={require('./images/share.png')}  alt="share" />
-</a>
-<Header />
-  <Links />
-  <Footer />
-
-
+  <Routes>
+  <Route path ="/" element={<Home />} />
+  <Route path ="/Contact" element={<Contact />} />
+</Routes>
   </div>
- 
+  </HashRouter> 
 )
 }
 
