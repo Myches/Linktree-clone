@@ -8,7 +8,7 @@ function Home (){
     return(
 <div className='App'>
  <a href='#'id="share">
-<img src={require('./images/share.png')}  alt="share" />
+<img src={require('../images/share.png')}  alt="share" />
 </a>
 <Header/>
 <Links />
