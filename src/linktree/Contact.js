@@ -33,10 +33,10 @@ return(
 				<input type='text' id='last_name' placeholder='Enter your lastname' onChange={handleChange} name="lastName" value={formData.lastName}/> <br />
 				
 
-				<label>Email</label>
+				<label htmlFor='emal'>Email</label>
                 <input type='email' id='email' placeholder='yourname@gmail.com' onChange={handleChange} name="email" value={formData.email}/> <br />
 
-				<label>Message</label>
+				<label htmlFor='message'>Message</label>
 				<textarea id='message' placeholder='send me a message and i will reply as soon as possible' onChange={handleChange} name='message' value={formData.message}/> <br />
 
 				
