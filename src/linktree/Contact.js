@@ -41,7 +41,7 @@ return(
 
 				
 				<input type='checkbox' id='agreement' checked={formData.agreement} onChange={handleChange} name='agreement'/>
-			<label htmlFor='agreement'>You agree to providing your data to us who may contact you</label> <br />
+			<label htmlFor='agreement'>You agree to providing your data to Michael Andorful, who may contact you</label> <br />
 
 			<button id='btn__submit'>Send Message</button>
 			 
