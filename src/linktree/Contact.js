@@ -24,12 +24,12 @@ return(
 
    <form>  
 	    
-                <p className='fn'>Firstname</p>
+                <p className='firstname'>Firstname</p>
 				<input type='text' id='first_name' placeholder='Enter your firstname' onChange={handleChange} name="firstName" value={formData.firstName}/>
 				
 
 				
-				<p className='ln'>Lastname</p>
+				<p className='lastname'>Lastname</p>
 				<input type='text' id='last_name' placeholder='Enter your lastname' onChange={handleChange} name="lastName" value={formData.lastName}/> <br />
 				
 
